@@ -1,3 +1,4 @@
+/*UTILITIES*/
 /*VARIABLES*/
 /*Color-variables*/
 /* ============================================= */
@@ -5,7 +6,7 @@
 /* ============================================= */
 * {
   font-family: "Lato", sans-serif;
-  color: #51ddfc;
+  color: #777;
   box-sizing: border-box;
 }
 
@@ -27,7 +28,7 @@ a {
 
 .headline-secondary {
   font-weight: 300;
-  color: #51ddfc;
+  color: #777;
 }
 
 .link {
