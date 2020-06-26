@@ -1,3 +1,10 @@
+/*VARIABLES*/
+
+@import "utilities/variables";
+
+
+
+
 
 /* ============================================= */
 /*              Base styles                      */
@@ -5,7 +12,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: $color-grey;
   box-sizing: border-box;
 }
 
@@ -23,17 +30,17 @@ a {
 /* ============================================= */
 
 .headline-primary {
-  color: #58e1c1;
+  color: $color-turquoise;
   margin-left: 10px;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: $color-grey;
 }
 
 .link {
-  color: #51ddfc;
+  color: $color-mayablue;
   font-weight: 700;
 }
 
@@ -43,7 +50,7 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid $color-turquoise;
   border-radius: 5px;
 }
 
@@ -71,11 +78,11 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: $color-lilacbush;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: $color-coral;
 }
 
 .theme.col-3 {
@@ -103,15 +110,15 @@ a {
 }
 
 .theme.col-9 {
-  background-color: #e4757a;
+  background-color: $color-froly;
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: $color-emerald;
 }
 
 .theme.col-11 {
-  background-color: #51ddfc;
+  background-color: $color-mayablue;
 }
 
 .theme.col-12 {
@@ -147,7 +154,7 @@ a {
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: $color-turquoise;
 }
 
 
@@ -158,7 +165,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $color-white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -166,23 +173,23 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-mayablue;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $color-froly;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $color-lilacbush;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: $color-emerald;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $color-coral;
 }
 
 
@@ -200,7 +207,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid $color-turquoise;
 }
 
 .hidden {
