@@ -254,7 +254,7 @@ a {
 /* ============================================= */
 
 
-@media (min-width: $mediaquery768) {
+@media (min-width: @include media768; ) {
 
 .container {
   max-width: 1400px;
@@ -333,7 +333,7 @@ a {
 }
 
 .nav {
-  flex-direction: row;
+  @include flex-drct-row;
   justify-content: flex-end;
   align-items: center;
 }

@@ -1,9 +1,9 @@
-/* Error: Undefined mixin.
+/* Error: Expected expression.
  *     ,
- * 273 |   @include flex-drct-row;
- *     |   ^^^^^^^^^^^^^^^^^^^^^^
+ * 257 | @media (min-width: @include media768; ) {
+ *     |                    ^
  *     '
- *   scss/input.scss 273:3  root stylesheet */
+ *   scss/input.scss 257:20  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a     \2577 \a 273 \2502    @include flex-drct-row;\a     \2502    ^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   scss/input.scss 273:3  root stylesheet";
+  content: "Error: Expected expression.\a     \2577 \a 257 \2502  @media (min-width: @include media768; ) {\a     \2502                     ^\a     \2575 \a   scss/input.scss 257:20  root stylesheet";
 }
