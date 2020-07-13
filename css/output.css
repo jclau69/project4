@@ -1,3 +1,20 @@
+/* Error: expected "{".
+ *   ,
+ * 3 |   @media (min-width:$mediaquery768)
+ *   |                                    ^
+ *   '
+ *   scss/utilities/_mixins.scss 3:36  @import
+ *   scss/utilities/_index.scss 3:9    @import
+ *   scss/_styles.scss 3:9             @import
+ *   scss/input.scss 3:9               root stylesheet */
 
-
-/*# sourceMappingURL=output.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 3 \2502    @media (min-width:$mediaquery768)\a   \2502                                     ^\a   \2575 \a   scss/utilities/_mixins.scss 3:36  @import\a   scss/utilities/_index.scss 3:9    @import\a   scss/_styles.scss 3:9             @import\a   scss/input.scss 3:9               root stylesheet';
+}

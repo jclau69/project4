@@ -1,4 +1,4 @@
-@mixin media768 {
+@mixin media768($mediaquery768){
 
-  $mediaquery768
+  @media (min-width:$mediaquery768)
 }

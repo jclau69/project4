@@ -253,8 +253,7 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 
-
-@media (min-width: @include media768; ) {
+@include media-query($mediaquery768) {
 
 .container {
   max-width: 1400px;
