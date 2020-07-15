@@ -258,7 +258,7 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 
-@mixin media768{
+@include media768($mediaquery768){
 
 
 
