@@ -258,7 +258,9 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 
-@mixin media768($mediaquery768) {
+@mixin media768{
+
+
 
 .container {
   max-width: 1400px;
