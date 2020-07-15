@@ -1,0 +1,8 @@
+@mixin hover {
+
+  &:hover{
+background-color: $button-light;
+transition: 1s;
+
+  }
+}

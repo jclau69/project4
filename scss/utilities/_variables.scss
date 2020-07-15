@@ -13,3 +13,5 @@ $maxwidth100:100%;
 $mediaquery768:768px;
 $font-family:'Lato', sans-serif;
 $font-weight300:300;
+$button-color:rgb(74,74,74);
+$button-light:lighten($button-color, 15%)
