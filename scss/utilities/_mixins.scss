@@ -21,3 +21,62 @@ transition: 1s;
 
   }
 }
+
+@mixin centered {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin column {
+
+  .col {
+  &-1 {
+    flex-basis: 8.33%;
+  }
+
+  &-2 {
+    flex-basis: 16.67%;
+  }
+
+  &-3 {
+    flex-basis: 25.00%;
+  }
+
+  &-4 {
+    flex-basis: 33.33%;
+  }
+
+  &-5 {
+    flex-basis: 41.67%;
+  }
+
+  &-6 {
+    flex-basis: 50.00%;
+  }
+
+  &-7 {
+    flex-basis: 58.33%;
+  }
+
+  &-8 {
+    flex-basis: 66.67%;
+  }
+
+  &-9 {
+    flex-basis: 75.00%
+  }
+
+  &-10 {
+    flex-basis: 83.33%;
+  }
+
+  &-11 {
+    flex-basis: 91.67%;
+  }
+
+  &-12 {
+    flex-basis: 100%;
+  }
+}
