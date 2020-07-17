@@ -1,12 +1,11 @@
-/* Error: Undefined variable.
- *   ,
- * 9 |   font-family: $font-family;
- *   |                ^^^^^^^^^^^^
- *   '
- *   scss/base/_typography.scss 9:16  @import
- *   scss/base/_index.scss 2:9        @import
- *   scss/_styles.scss 1:9            @import
- *   scss/input.scss 3:9              root stylesheet */
+/* Error: Undefined mixin.
+ *    ,
+ * 16 |   @include centered;
+ *    |   ^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss/input.scss 16:3             @content
+ *   scss/utilities/_mixins.scss 7:1  media768()
+ *   scss/input.scss 10:1             root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -16,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 9 \2502    font-family: $font-family;\a   \2502                 ^^^^^^^^^^^^\a   \2575 \a   scss/base/_typography.scss 9:16  @import\a   scss/base/_index.scss 2:9        @import\a   scss/_styles.scss 1:9            @import\a   scss/input.scss 3:9              root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 16 \2502    @include centered;\a    \2502    ^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/input.scss 16:3             @content\a   scss/utilities/_mixins.scss 7:1  media768()\a   scss/input.scss 10:1             root stylesheet";
 }
