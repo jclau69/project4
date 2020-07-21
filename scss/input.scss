@@ -7,7 +7,7 @@
 /*              Media Queries                    */
 /* ============================================= */
 
-@include media768($mediaquery768){
+@media (min-width:$mediaquery768){
 
 
 
@@ -62,4 +62,5 @@
 .logo {
   margin-left: initial;
   margin-right: initial;
+}
 }
