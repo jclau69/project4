@@ -24,6 +24,7 @@
   @include flex-drct-row;
 }
 
+
 [class^=col] {
   display: flex;
   justify-content: center;
@@ -35,6 +36,7 @@
   margin-left: 10px;
 }
 
+@include column;
 
 }
 .nav {
@@ -46,9 +48,7 @@
     flex-basis: 100px;
   }
 }
-.col {
-@include column;
-}
+
 .btn{
 & {
   padding: 10px 30px;
